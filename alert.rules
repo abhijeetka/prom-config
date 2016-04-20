@@ -1,9 +1,4 @@
-# prom-config
-Prometheus Configuration Container for Custom Catolog  - Test
-
-# Alert Rules
-
-ALERT Rules for checking if Host is Down
+### ALERT Rules for checking if Host is Down
 ALERT RancherHostDown
   IF  rancher_hosts == 0
   FOR 1m
